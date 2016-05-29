@@ -12,7 +12,7 @@ class TestController extends Controller
 		
 		echo "test-index-".rand(0,99999);
 		$db = Yii::$app->db;
-		$res = $db->createCommand("select * from jdb_company_info ORDER BY RAND() limit 1");
+		$res = $db->createCommand("select * from test ORDER BY RAND() limit 1");
 		$data = $res->queryOne();
 		echo "<pre>";
 		var_dump($data);

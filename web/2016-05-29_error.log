@@ -1,6 +1,0 @@
-2016-05-29 11:43:47 [127.0.0.1][-][-][error][application] 
-异常提示：syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' (/vagrant_www/swoole_yii/controllers/TestController.php:19)
-Stack trace:
-#0 unknown(0): HttpServer->handleFatal()
-[QUERY] /test/index
-    in /vagrant_www/swoole_yii/web/swoole.php:161

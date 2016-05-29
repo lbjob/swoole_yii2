@@ -26,7 +26,7 @@ class HttpServer
 		        'task_worker_num'   => 32,
 		        'task_worker_max'   => 256,
 			    'daemonize' => false,
-			    'log_file' => './swoole_http_server.log',
+			    'log_file' => '../runtime/logs/swoole_http_server.log',
             )
         );
         $http->on('WorkerStart', array($this, 'onWorkerStart'));
